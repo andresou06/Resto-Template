@@ -101,6 +101,53 @@ body {
     section h1 {
       font-size: 2.5rem;
     }
+    .footer_link{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .footer_link img{
+      width: 2rem;
+     
+      margin: 1rem;
+      border-radius: 100%;
+      background-color: white;
+    }
+    .footer_link img:hover {
+      cursor: pointer;
+      background-color: brown;
+    }
+    
+    .history {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0.5rem;
+      
+    }
+    .menu {
+      margin-top: 2rem;
+      display: flex;
+     flex-wrap: wrap;
+   
+
+      
+    }
+    #content {
+      display: grid;
+    
+
+      font-size: 0.5rem;
+
+      /* width: 60%; */
+    }
+    #content img {
+      width:  40vw;
+      height: 30vh;
+    
+      
+    }
+    
+    
 }
 
 
@@ -239,30 +286,12 @@ padding: 0;
     cursor: pointer;
     }
 
-    .history {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      
-      
-    }
-    .menu {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: flex-start;
-      margin: 5rem;
-      
-    }
+    
 
     
 
     
-    #content img {
-      width:  40%;
-      height: 70vh;
-      margin: 2rem;
-      
-    }
+    
 /* .heade
 
 /* #####################################*/
@@ -338,7 +367,26 @@ section h1 {
   margin: 2rem;
 }
 
-
+#content img {
+  width:  40%;
+  height: 70vh;
+  margin: 2rem;
+  
+}
+.history {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  
+  
+}
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 5rem;
+  
+}
 }
 
 
@@ -418,5 +466,40 @@ section h1 {
   margin: 1rem;
 }
 
+.footer_link{
+  display: flex;
+  justify-content: center;
+}
 
+.footer_link img{
+  width: 2rem;
+ 
+  margin: 1rem;
+  border-radius: 100%;
+  background-color: white;
+}
+.footer_link img:hover {
+  cursor: pointer;
+  background-color: brown;
+}
+#content img {
+  width:  40%;
+  height: 70vh;
+  margin: 2rem;
+  
+}
+.history {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  
+  
+}
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 5rem;
+  
+}
 }
